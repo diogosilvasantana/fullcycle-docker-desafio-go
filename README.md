@@ -7,7 +7,7 @@ Este é o desafio do módulo de Docker do curso Full Cycle 3.0, onde você cria 
 Para executar o desafio, você pode usar a imagem disponível no Docker Hub. Basta executar o seguinte comando:
 
 ```bash
-docker run -it diogosilvasantana/docker-desafio-go:latest
+docker run diogosilvasantana/docker-desafio-go
 ```
 Isso iniciará o contêiner e executará a aplicação Go, imprimindo "Full Cycle Rocks!!" no console.
 
@@ -49,12 +49,12 @@ docker push <SEU_USUARIO_DOCKERHUB>/docker-desafio-go:latest
 
 Substitua `<SEU_USUARIO_DOCKERHUB>` pelo seu nome de usuário no Docker Hub.
 
-## Como executar a imagem usando o `-it` para não travar o terminal
+## Como executar a imagem
 
-Para executar a imagem Docker sem travar o terminal, use o seguinte comando:
+Para executar a imagem Docker, use o seguinte comando:
 
 ```bash
-docker run -it <SEU_USUARIO_DOCKERHUB>/docker-desafio-go:latest
+docker run <SEU_USUARIO_DOCKERHUB>/docker-desafio-go
 ```
 
 Substitua `<SEU_USUARIO_DOCKERHUB>` pelo seu nome de usuário no Docker Hub.
