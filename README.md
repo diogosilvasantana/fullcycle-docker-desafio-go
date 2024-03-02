@@ -11,7 +11,7 @@ docker run diogosilvasantana/docker-desafio-go
 ```
 Isso iniciará o contêiner e executará a aplicação Go, imprimindo "Full Cycle Rocks!!" no console.
 
-## Como gerar a a sua imagem Docker a partir desse diretório:
+## Como gerar a sua imagem Docker a partir desse diretório:
 
 Para gerar a imagem Docker, siga estas etapas:
 
